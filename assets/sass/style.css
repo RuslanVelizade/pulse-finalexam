@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+  font-family: "HelveticaNeuelTPro";
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1199px) {
+  .container {
+    padding: 0 5%;
+  }
+}
+
+header .header {
+  display: flex;
+  justify-content: space-between;
+}
+header .header .header-left {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .header .header-left h1 {
+  font-size: 36px;
+}
+header .header nav {
+  padding: 40px 0;
+}
+header .header nav ul {
+  display: flex;
+  gap: 30px;
+}
+header .header nav ul li a {
+  font-size: 16px;
+}
+header .header .menuIconCont {
+  display: none;
+}
+header .header .header-right {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 600px) {
+  header .header nav {
+    display: none;
+  }
+  header .header .menuIconCont {
+    display: block;
+    align-self: center;
+  }
+  header .header .header-right {
+    display: none;
+  }
+}
+
+#menu-carousel swiper-container {
+  width: 100%;
+  height: 100%;
+}
+#menu-carousel swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+#menu-carousel swiper-slide:nth-child(1) {
+  background: url("https://preview.colorlib.com/theme/pulse/img/slider/slider-1.jpg");
+}
+#menu-carousel swiper-slide:nth-child(2) {
+  background: url("https://preview.colorlib.com/theme/pulse/img/slider/slider-2.jpg");
+}
+#menu-carousel swiper-slide:nth-child(3) {
+  background: url("https://preview.colorlib.com/theme/pulse/img/slider/slider-3.jpg");
+}
+#menu-carousel swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#welcome .welcome {
+  color: black;
+}
+#welcome .welcome .welcome-top {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+#welcome .welcome .welcome-top .fa-stack-overflow {
+  font-size: 60px;
+}
+#welcome .welcome .welcome-top h1 {
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+}
+#welcome .welcome .welcome-top h1 div {
+  height: 1px;
+  background-color: #ffc515;
+  width: 150px;
+  display: flex;
+}
+#welcome .welcome .welcome-middle {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+#welcome .welcome .welcome-middle .welcome-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+#welcome .welcome .welcome-middle .welcome-box h4 {
+  font-size: 30px;
+}
+#welcome .welcome .welcome-middle .welcome-box p {
+  font-size: 16px;
+  color: #7e7e7e;
+  text-align: center;
+  line-height: 1.5;
+}
+#welcome .welcome .welcome-bottom {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+#testimonials {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url("https://preview.colorlib.com/theme/pulse/img/review-bg.jpg");
+}
+#testimonials .testimonials {
+  color: white;
+}
+#testimonials .testimonials .testimonials-top {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+#testimonials .testimonials .testimonials-top .fa-ice-cream {
+  font-size: 60px;
+}
+#testimonials .testimonials .testimonials-top h1 {
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+}
+#testimonials .testimonials .testimonials-top h1 div {
+  height: 1px;
+  background-color: #ffc515;
+  width: 150px;
+  display: flex;
+}
+#testimonials .testimonials .secondSwiper swiper-slide {
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+#testimonials .testimonials .secondSwiper swiper-slide p:nth-child(1) {
+  font-size: 30px;
+}
+#testimonials .testimonials .secondSwiper swiper-slide p:nth-child(2) {
+  font-size: 16px;
+  font-weight: 400;
+}
+#testimonials .testimonials .secondSwiper swiper-slide p:nth-child(3) {
+  font-size: 16px;
+}
+#testimonials .testimonials .secondSwiper swiper-slide p:nth-child(3) span {
+  color: #ffc515;
+}
+
+#services .services {
+  color: black;
+}
+#services .services .services-top {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+#services .services .services-top .fa-utensils {
+  font-size: 60px;
+}
+#services .services .services-top h1 {
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+}
+#services .services .services-top h1 div {
+  height: 1px;
+  background-color: #ffc515;
+  width: 150px;
+  display: flex;
+}
+#services .services .services-bottom {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+#services .services .services-bottom .services-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+#services .services .services-bottom .services-box h4 {
+  font-size: 30px;
+}
+#services .services .services-bottom .services-box p {
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: center;
+  color: #7e7e7e;
+}
+
+#menu {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url("https://preview.colorlib.com/theme/pulse/img/menu-bg.jpg");
+}
+#menu .menu {
+  color: white;
+}
+#menu .menu .menu-top {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+#menu .menu .menu-top .fa-utensils {
+  font-size: 60px;
+}
+#menu .menu .menu-top h1 {
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+}
+#menu .menu .menu-top h1 div {
+  height: 1px;
+  background-color: #ffc515;
+  width: 150px;
+  display: flex;
+}
+#menu .menu .menu-bottom {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+#menu .menu .menu-bottom .menu-card h4 {
+  font-size: 18px;
+}
+#menu .menu .menu-bottom .menu-card div {
+  display: flex;
+  font-size: 17px;
+  color: #595958;
+}
+#menu .menu .menu-bottom .menu-card div p {
+  font-size: 12px;
+}
+#menu .menu .menu-bottom .menu-card div span {
+  color: white;
+}
+
+.form {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form form {
+  padding: 30px;
+  gap: 20px;
+  display: flex;
+}
+
+.table {
+  display: flex;
+  padding: 50px;
+}
+.table table, .table th, .table td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.table table {
+  width: 100%;
+}
+.table table tbody tr td {
+  text-align: center;
+  word-wrap: wrap;
+}
+
+footer {
+  height: 30vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url("https://preview.colorlib.com/theme/pulse/img/footer-bg.jpg");
+}
+footer .footer {
+  display: flex;
+  justify-content: center;
+}
+footer .footer p {
+  color: #747374;
+  margin: 30px 0;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

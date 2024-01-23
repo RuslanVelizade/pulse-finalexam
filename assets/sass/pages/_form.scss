@@ -1,0 +1,31 @@
+.form {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   form{
+    padding: 30px;
+    gap: 20px;
+    display: flex;
+   }
+}
+
+.table{
+    display: flex;
+    padding: 50px;
+    table, th , td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    table{
+        width: 100%;
+        tbody{
+            tr{
+                td{
+                    text-align: center;
+                    word-wrap: wrap;
+                }
+            }
+        }
+    }
+}

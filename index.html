@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script defer src="./assets/js/common.js"></script>
+    <script defer src="./assets/js/main.js"></script>
+    <link rel="stylesheet" href="./assets/sass/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <div class="header-left">
+                    <h1>Pulse<span>.</span></h1>
+                </div>
+                <nav>
+                   <ul>
+                    <li><a href="./index.html">Home</li>
+                    <li><a href="#">About us</li>
+                    <li><a href="#">Restaurant</li>
+                    <li><a href="#">News</li>
+                    <li><a href="#">Contact</li>
+                    <li><a href="./form.html">Add Menu</li>
+                   </ul>
+                </nav>
+                <div class="menuIconCont">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="header-right">
+                    <p><span>Reservations </span> 652-345 3222 11</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="menu-carousel">
+ <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+    centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+    <swiper-slide ><h1>Food and more <span>.</span>
+    <p>By Chef Francis Smith</p>
+    </h1></swiper-slide>
+    <swiper-slide><h1>Special Dish <span>.</span>
+    <p>By Chef Francis Smith</p>
+    </h1></swiper-slide>
+    <swiper-slide><h1>Hygienic Food <span>.</span>
+    <p>By Chef Francis Smith</p>
+    </h1></swiper-slide>
+  </swiper-container>
+
+    </section>
+    <section id="welcome">
+<div class="container">
+    <div class="welcome">
+        <div class="welcome-top">
+            <i class="fa-brands fa-stack-overflow"></i>
+            <h1><div></div> Welcome <div></div></h1>
+        </div>
+        <div class="welcome-middle">
+            <div class="welcome-box">
+                <h4>2002</h4>
+                <p>In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat.</p>
+            </div>
+            <div class="welcome-box">
+                <h4>2010</h4>
+                <p>Stpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat. Maecenas sollicitudin est in libero pretium.</p>
+            </div>
+            <div class="welcome-box">
+                <h4>2018</h4>
+                <p>In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat.</p>
+            </div>
+        </div>
+        <div class="welcome-bottom">
+            <img src="./assets/images/sign.png" alt="">
+        </div>
+    </div>
+</div>
+    </section>
+    <section id="testimonials">
+<div class="container">
+    <div class="testimonials">
+        <div class="testimonials-top">
+            <i class="fa-solid fa-ice-cream"></i>
+            <h1><div></div> Testimonials <div></div></h1>
+        </div>
+         <swiper-container class="mySwiper secondSwiper" pagination="true" pagination-clickable="true" loop="true" space-between="30"
+    centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+    <swiper-slide >
+        <p>"</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam excepturi corporis sed nemo, illum asperiores iusto illo a non sit accusantium dolores ad impedit deserunt amet maxime ullam ex nostrum nulla quod accusamus provident distinctio, quae esse. Corporis, tempora commodi!</p>
+        <p><span>Ted Champan</span>, Client</p>
+    </swiper-slide>
+    <swiper-slide>
+         <p>"</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam excepturi corporis sed nemo, illum asperiores iusto illo a non sit accusantium dolores ad impedit deserunt amet maxime ullam ex nostrum nulla quod accusamus provident distinctio, quae esse. Corporis, tempora commodi!</p>
+        <p><span>Ted Champan</span>, Client</p>
+    </swiper-slide>
+    <swiper-slide>
+         <p>"</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam excepturi corporis sed nemo, illum asperiores iusto illo a non sit accusantium dolores ad impedit deserunt amet maxime ullam ex nostrum nulla quod accusamus provident distinctio, quae esse. Corporis, tempora commodi!</p>
+        <p><span>Ted Champan</span>, Client</p>
+    </swiper-slide>
+  </swiper-container>
+    </div>
+</div>
+    </section>
+    <section id="services">
+        <div class="container">
+            <div class="services">
+                <div class="services-top">
+                    <i class="fa-solid fa-utensils"></i>
+                    <h1><div></div>Our Services<div></div></h1>
+                </div>
+                <div class="services-bottom">
+                    <div class="services-box">
+                        <h4>Breakfast</h4>
+                        <p>In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum.</p>
+                    </div>
+                    <div class="services-box">
+                        <h4>Brunch</h4>
+                        <p>Scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis.</p>
+                    </div>
+                    <div class="services-box">
+                        <h4>Lunch</h4>
+                        <p>In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum.</p>
+                    </div>
+                    <div class="services-box">
+                        <h4>Dinner</h4>
+                        <p>Scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="menu">
+        <div class="container">
+            <div class="menu">
+                <div class="menu-top">
+                    <i class="fa-solid fa-utensils"></i>
+                    <h1><div></div>Our Menu<div></div></h1>
+                </div>
+                <div class="filter-btns">
+                    <span>Breakfast</span>
+                    <span>Brunch</span>
+                    <span>Lunch</span>
+                    <span>Dinner</span>
+                </div>
+                <div class="menu-bottom">
+                    <!-- <div class="menu-card">
+                        <h4></h4>
+                        <div>
+                            <p>
+                                <span></span>
+                            </p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="footer">
+              <p>Copyright ©2024 All rights reserved | This template is made with <i class="fa-regular fa-heart"></i> by 
+            <a href="https://colorlib.com/">Colorlib</a>
+        </p>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>

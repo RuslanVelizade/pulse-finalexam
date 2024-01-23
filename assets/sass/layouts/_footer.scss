@@ -1,0 +1,18 @@
+footer{
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url("https://preview.colorlib.com/theme/pulse/img/footer-bg.jpg");
+    .footer{
+        display: flex;
+   
+    justify-content: center;
+    
+    p{
+        color: #747374;
+        margin: 30px 0;
+        text-align: center;
+    }
+    }
+}
