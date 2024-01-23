@@ -1,24 +1,49 @@
+.header-left, nav, .header-right{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
 header{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
     .header{
         display: flex;
-        justify-content: space-between;
+      justify-content: stretch;
+      color: white;
         .header-left{
-            padding: 40px 0;
+            width: 20%;
+            padding: 30px 0;
             display: flex;
             align-items: center;
             justify-content: center;
             h1{
                 font-size: 36px;
+                line-height: 0;
+                span {
+                    color: #FFC515;
+                }
             }
         }
         nav{
-            padding: 40px 0;
+            width: 60%;
+            padding: 30px 0;
+            display: flex;
+            align-items: center;
+            padding-left: 15%;
             ul{
                 display: flex;
-                gap: 30px;
+                align-items: center;
+                gap: 20px;
                 li {
                     a{
                         font-size: 16px;
+                        color: white;
+                        font-weight: 400;
+                        transition: all 0.3s ;
+                        &:hover {
+                            color: #FFC515;
+                        }
                     }
                 }
             }
@@ -27,15 +52,28 @@ header{
             display: none;
         }
         .header-right{
+            width: 30%;
             padding: 40px 0;
             display: flex;
             align-items: center;
             justify-content: center;
+            p{
+                span{
+                    color: #FFC515;
+                    font-weight: 600;
+                }
+            }
 
         }
     }
     @media screen and (max-width: 600px){
+        width: 100%;
         .header{
+            border-bottom: 1px solid white;
+            justify-content: space-between;
+            .header-left{
+                border: none;
+            }
             nav{
                 display: none;
             }

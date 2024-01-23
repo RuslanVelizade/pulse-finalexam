@@ -1,3 +1,6 @@
+const id = new URLSearchParams(window.location.search).get("id");
+console.log(id);
+
 let menuContainer = document.querySelector(".menu-bottom");
 
 async function getData() {
@@ -13,7 +16,7 @@ function createMenuCard(data) {
     data.forEach(element => {
         menuContainer.innerHTML += `
         <div class="menu-card">
-                        <h4>${element.name}</h4>
+                        <h4>${element.name} <a href="details.html?id=${element.id}">View</a></h4>
                         <div>
                             <p>
                             ${element.ingredients}

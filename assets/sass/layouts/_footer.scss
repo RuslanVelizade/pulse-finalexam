@@ -1,13 +1,15 @@
 footer{
-    height: 30vh;
+    height: 70vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background: url("https://preview.colorlib.com/theme/pulse/img/footer-bg.jpg");
     .footer{
+        height: 100%;
         display: flex;
    
     justify-content: center;
+    align-items: flex-end;
     
     p{
         color: #747374;

@@ -1,60 +1,78 @@
 {
-    "menus": [
-        {
-            "id": "1",
-            "name": "Scrambled Eggs with ham",
-            "ingredients": "with wild mushrooms and asparagus",
-            "price": 9.00,
-            "category": "breakfast"
-        },
-        {
-            "id": "2",
-            "name": "Scrambled Eggs with ham",
-            "ingredients": "with wild mushrooms and asparagus",
-            "price": 9.00,
-            "category": "breakfast"
-        },
-        {
-            "id": "3",
-            "name": "Scrambled Eggs in Puff Pastry",
-            "ingredients": "with wild mushrooms and asparagus",
-            "price": 11.00,
-            "category": "breakfast"
-        },
-        {
-            "id": "4",
-            "name": "Scrambled Eggs in Puff Pastry",
-            "ingredients": "with wild mushrooms and asparagus",
-            "price": 11.00,
-            "category": "breakfast"
-        },
-        {
-            "id": "5",
-            "name": "Eggs Benedict",
-            "ingredients": "with wild mushrooms and asparagus",
-            "price": 6.00,
-            "category": "breakfast"
-        },
-        {
-            "id": "6",
-            "name": "Eggs Benedict",
-            "ingredients": "with wild mushrooms and asparagus",
-            "price": 6.00,
-            "category": "breakfast"
-        },
-        {
-            "id": "7",
-            "name": "Soft-Boiled Organic Egg",
-            "ingredients": "with wild mushrooms and asparagus",
-            "price": 8.00,
-            "category": "breakfast"
-        },
-        {
-            "id": "8",
-            "name": "Soft-Boiled Organic Egg",
-            "ingredients": "with wild mushrooms and asparagus",
-            "price": 8.00,
-            "category": "breakfast"
-        }
-    ]
+  "menus": [
+    {
+      "id": "1",
+      "name": "Scrambled Eggs with ham",
+      "ingredients": "with wild mushrooms and asparagus",
+      "price": 9,
+      "category": "breakfast"
+    },
+    {
+      "id": "2",
+      "name": "Scrambled Eggs with ham",
+      "ingredients": "with wild mushrooms and asparagus",
+      "price": 9,
+      "category": "breakfast"
+    },
+    {
+      "id": "3",
+      "name": "Scrambled Eggs in Puff Pastry",
+      "ingredients": "with wild mushrooms and asparagus",
+      "price": 11,
+      "category": "breakfast"
+    },
+    {
+      "id": "4",
+      "name": "Scrambled Eggs in Puff Pastry",
+      "ingredients": "with wild mushrooms and asparagus",
+      "price": 11,
+      "category": "breakfast"
+    },
+    {
+      "id": "5",
+      "name": "Eggs Benedict",
+      "ingredients": "with wild mushrooms and asparagus",
+      "price": 6,
+      "category": "breakfast"
+    },
+    {
+      "id": "6",
+      "name": "Eggs Benedict",
+      "ingredients": "with wild mushrooms and asparagus",
+      "price": 6,
+      "category": "breakfast"
+    },
+    {
+      "id": "7",
+      "name": "Soft-Boiled Organic Egg",
+      "ingredients": "with wild mushrooms and asparagus",
+      "price": 8,
+      "category": "breakfast"
+    },
+    {
+      "id": "8",
+      "name": "Soft-Boiled Organic Egg",
+      "ingredients": "with wild mushrooms and asparagus",
+      "price": 8,
+      "category": "breakfast"
+    },
+    {
+      "id": "7d33",
+      "name": "Voluptatum rem dicta",
+      "ingredients": "Sint dolore dolor qu",
+      "price": "29"
+    },
+    {
+      "id": "16c3",
+      "name": "Est repudiandae aut",
+      "ingredients": "Magni quam debitis m",
+      "price": "99"
+    },
+    {
+      "id": "8f70",
+      "name": "Voluptatum rem dicta",
+      "ingredients": "Sint dolore dolor qu",
+      "price": "35"
+    }
+  ]
 }
